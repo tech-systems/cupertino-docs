@@ -9,6 +9,20 @@ export default function Home() {
         <title>Cupertino Panes</title>
         <meta name="description" content="Easily create most modern dynamic Panes for your progressive applications in few steps. Any framework." />
         <link rel="icon" href="/favicon.ico" />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-B5HS3ML7F7"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-B5HS3ML7F7', { page_path: window.location.pathname });
+            `,
+          }}
+        />
       </Head>
 
       <main className={styles.main}>

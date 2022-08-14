@@ -18,6 +18,9 @@
 # misc
 .DS_Store
 *.pem
+.vscode
+cache
+temp
 
 # debug
 npm-debug.log*
@@ -33,3 +36,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# vitepress
+/dist
+docs/.vitepress/dist

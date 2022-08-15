@@ -19,23 +19,41 @@ export default {
         socialLinks: [
             { icon: 'github', link: 'https://github.com/roman-rr/cupertino-pane' }
         ],
-        sidebar: [
-          {
-            text: 'Guide',
-            items: [
-              { text: 'Introduction', link: '/' },
-              { text: 'Demonstration', link: '/demonstration' },
-              { text: 'Getting Started', link: '/getting-started' },
-              { text: 'Modules', link: '/modules' },
-              { text: 'Settings', link: '/settings' },
-              { text: 'Events', link: '/events' },
-              { text: 'Breakpoints', link: '/breakpoints' },
-              { text: 'Public Methods', link: '/public-methods' },
-              { text: 'Attributes', link: '/attributes' },
-              { text: 'CSS Variables', link: '/css-variables' },
-              { text: 'Keyboard issues', link: '/keyboard-issues' }
-            ]
-          }
-        ]
+        nav: [
+          { text: 'Docs', link: '/' },
+          { text: 'Blog', link: '/blog/', activeMatch: '/blog' }
+        ],
+        sidebar: {
+          '/blog/': blogSidebar(),
+          '/': docsSidebar()
+        },
     }
+}
+
+function docsSidebar() {
+  return [
+    {
+      // text: 'Guide',
+      items: [
+        { text: 'Introduction', link: '/' },
+        { text: 'Demonstration', link: '/demonstration' },
+        { text: 'Getting Started', link: '/getting-started' },
+        { text: 'Modules', link: '/modules' },
+        { text: 'Settings', link: '/settings' },
+        { text: 'Events', link: '/events' },
+        { text: 'Breakpoints', link: '/breakpoints' },
+        { text: 'Public Methods', link: '/public-methods' },
+        { text: 'Attributes', link: '/attributes' },
+        { text: 'CSS Variables', link: '/css-variables' },
+        { text: 'Keyboard issues', link: '/keyboard-issues' }
+      ]
+    }
+  ];
+}
+
+function blogSidebar() {
+  return [{
+    // text: 'Latest posts',
+    items: [{text: 'Latest posts', link: '/blog/'}]
+  }];
 }

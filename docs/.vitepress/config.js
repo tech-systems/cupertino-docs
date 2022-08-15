@@ -10,9 +10,12 @@ export default {
           'script',
           {},
           "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-B5HS3ML7F7');"
-        ]
+        ],
+        ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+        ['meta', { property: 'og:image', content: '/logo-dark.png'}]
     ],
     themeConfig: {
+        logo: '/logo.svg',
         socialLinks: [
             { icon: 'github', link: 'https://github.com/roman-rr/cupertino-pane' }
         ],

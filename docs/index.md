@@ -1,16 +1,32 @@
-<p align="center">
-     <!-- <img alt="Cupertino Panes is multi-functional panes & boards with touch technologies" src="docs/logo/logo-1-mini.jpg" width="600" /> -->
-     <img alt="Cupertino Panes is multi-functional panes & boards with touch technologies" src="/logo.png" width="600" />
-</p>
-
-# Cupertino Panes
-
 <style lang="css">
     .badges img {
         display: inline-block;
         margin-right: 5px;
     }
+
+    .index-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    html:not(.dark) .index-logo img.dark {
+        display: none;  
+    }
+
+    html.dark .index-logo img.light {
+        display: none;
+    }
 </style>
+
+<div class="index-logo">
+     <img class="light" alt="Cupertino Panes is multi-functional panes & boards with touch technologies" 
+        src="/logo.jpg" width="600" />
+     <img class="dark" alt="Cupertino Panes is multi-functional panes & boards with touch technologies" 
+        src="/logo-dark.png" width="600" />
+</div>
+
+# Cupertino Panes
+
 <div class="badges">
 
 [![CircleCI](https://circleci.com/gh/roman-rr/cupertino-pane.svg?style=svg)](https://circleci.com/gh/roman-rr/cupertino-pane)

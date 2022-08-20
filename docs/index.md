@@ -1,9 +1,4 @@
 <style lang="css">
-    .badges img {
-        display: inline-block;
-        margin-right: 5px;
-    }
-
     .index-logo {
         display: flex;
         justify-content: center;
@@ -16,6 +11,16 @@
     html.dark .index-logo img.light {
         display: none;
     }
+
+    .VPFeatures.VPHomeFeatures .title {
+        border-top: 0;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .VPFeatures.VPHomeFeatures .details {
+        margin-bottom: 0;
+    }
 </style>
 
 <div class="index-logo">
@@ -27,32 +32,76 @@
 
 # Cupertino Panes
 
-<div class="badges">
 
-[![CircleCI](https://circleci.com/gh/roman-rr/cupertino-pane.svg?style=svg)](https://circleci.com/gh/roman-rr/cupertino-pane)
-![npm](https://img.shields.io/npm/v/cupertino-pane)
-![npm](https://img.shields.io/npm/dm/cupertino-pane?color=%23007DC5)
-![NPM](https://img.shields.io/npm/l/cupertino-pane?color=%23007DC5)
-[![Code Style](https://badgen.net/badge/icon/typescript?icon=typescript&label)](https://www.typescriptlang.org/)
-[![Code Style](https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
-[![Financial Contributors on Open Collective](https://opencollective.com/cupertino-pane/all/badge.svg?label=financial+contributors)](https://opencollective.com/cupertino-pane)
-
-</div>
 
 <!-- <img src="https://user-images.githubusercontent.com/10646478/79794348-4846bc00-837c-11ea-8b74-7c71fac120aa.png" 
      align="right" alt="Cupertino Pane logo Roman Antonov" width="260px" height="421px"> -->
      
 Cupertino Panes is multi-functional panes & boards with touch technologies. <br>
+Easily create most modern dynamic Panes for your progressive applications in few steps.
 
-* **Small.** 12kb (minified and gzipped bundle with all modules). No dependencies.
-* **Modularized.** Add extra features to your panes and create own modules.
-* **Accelerated.** Hardware accelerated transitions and amazing native behavior.
-* **Progressive.** Useful for mobile/web/hybrid applications.
 
-> Right like in Apple Maps, Apple Stocks, Apple Music and other modern apps.
+<a class="VPButton medium brand" href="/getting-started" >Getting Started</a> | 
+<a class="VPButton medium brand" href="/demonstration" >Demonstration</a>
+
+<div class="VPFeatures VPHomeFeatures">
+    <div class="container" data-v-caa71a02="">
+        <div class="items" data-v-caa71a02="">
+            <!-- Item  -->
+            <div class="item grid-2" data-v-caa71a02="">
+                <article class="VPFeature" data-v-46ef82a4="" data-v-caa71a02="">
+                    <!-- <div class="icon" data-v-46ef82a4="">⚡️</div> -->
+                    <h2 class="title" data-v-46ef82a4="">Any framework</h2>
+                    <p class="details" data-v-46ef82a4="">Use with Vuejs, Reactjs, Angular or any other front-end environment.</p>
+                </article>
+            </div>
+            <!-- Item -->
+            <div class="item grid-2" data-v-caa71a02="">
+                <article class="VPFeature" data-v-46ef82a4="" data-v-caa71a02="">
+                    <!-- <div class="icon" data-v-46ef82a4="">⚡️</div> -->
+                    <h2 class="title" data-v-46ef82a4="">Small</h2>
+                    <p class="details" data-v-46ef82a4="">12kb (minified and gzipped bundle with all modules). No dependencies.</p>
+                </article>
+            </div>
+            <!-- Item -->
+            <div class="item grid-2" data-v-caa71a02="">
+                <article class="VPFeature" data-v-46ef82a4="" data-v-caa71a02="">
+                    <!-- <div class="icon" data-v-46ef82a4="">⚡️</div> -->
+                    <h2 class="title" data-v-46ef82a4="">Accelerated</h2>
+                    <p class="details" data-v-46ef82a4="">Hardware accelerated transitions and amazing native behavior.</p>
+                </article>
+            </div>
+            <!-- Item -->
+            <div class="item grid-2" data-v-caa71a02="">
+                <article class="VPFeature" data-v-46ef82a4="" data-v-caa71a02="">
+                    <!-- <div class="icon" data-v-46ef82a4="">⚡️</div> -->
+                    <h2 class="title" data-v-46ef82a4="">Progressive</h2>
+                    <p class="details" data-v-46ef82a4="">Panes is would be the best UI solution for mobile, web, or hybrid pwa applications.</p>
+                </article>
+            </div>
+            <!-- Item -->
+            <div class="item grid-2" data-v-caa71a02="">
+                <article class="VPFeature" data-v-46ef82a4="" data-v-caa71a02="">
+                    <!-- <div class="icon" data-v-46ef82a4="">⚡️</div> -->
+                    <h2 class="title" data-v-46ef82a4="">Modularized</h2>
+                    <p class="details" data-v-46ef82a4="">Add extra features to your panes and create own modules.</p>
+                </article>
+            </div>
+            <!-- Item -->
+            <div class="item grid-2" data-v-caa71a02="">
+                <article class="VPFeature" data-v-46ef82a4="" data-v-caa71a02="">
+                    <!-- <div class="icon" data-v-46ef82a4="">⚡️</div> -->
+                    <h2 class="title" data-v-46ef82a4="">Innovative</h2>
+                    <p class="details" data-v-46ef82a4="">Right like in Apple Maps, Apple Stocks, Apple Music and other modern apps.</p>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 ::: tip
-⭐ We appreciate your star, it helps!
+⭐ We appreciate your star at our repository, it's our main fuel and really helps!
 :::
 
 ## Financial Contributors

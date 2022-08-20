@@ -44,55 +44,100 @@ Easily create most modern dynamic Panes for your progressive applications in few
 <a class="VPButton medium brand" href="/getting-started" >Getting Started</a> | 
 <a class="VPButton medium brand" href="/demonstration" >Demonstration</a>
 
+<style lang="css">
+    .VPFeatures.VPHomeFeatures .container {
+        margin: 0 auto;
+        max-width: 1152px;
+    }
+
+    .VPFeatures.VPHomeFeatures .container .items {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -8px;
+    }
+
+    .VPFeatures.VPHomeFeatures .container .items .item.grid-2 {
+        padding: 8px;
+        width: 100%;
+    }
+
+    @media (min-width: 768px) {
+        .VPFeatures.VPHomeFeatures .container .items .item.grid-2 {
+            width: calc(100% / 2);
+        }
+    }
+
+    @media (min-width: 640px) {
+        .VPFeatures.VPHomeFeatures .container .items .item.grid-2 {
+            width: calc(100% / 2);
+        }
+    }
+
+    .VPFeatures.VPHomeFeatures .container .items .item article {
+        border: 1px solid var(--vp-c-bg-soft);
+        border-radius: 12px;
+        padding: 24px;
+        height: 100%;
+        background-color: var(--vp-c-bg-soft);
+    }
+    
+    .VPFeatures.VPHomeFeatures .container .items .item article .title {
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .VPFeatures.VPHomeFeatures .container .items .item article .details {
+        padding-top: 8px;
+        line-height: 24px;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--vp-c-text-2);
+    }
+</style>
 <div class="VPFeatures VPHomeFeatures">
-    <div class="container" data-v-caa71a02="">
-        <div class="items" data-v-caa71a02="">
-            <!-- Item  -->
-            <div class="item grid-2" data-v-caa71a02="">
-                <article class="VPFeature" data-v-46ef82a4="" data-v-caa71a02="">
-                    <!-- <div class="icon" data-v-46ef82a4="">⚡️</div> -->
-                    <h2 class="title" data-v-46ef82a4="">Any framework</h2>
-                    <p class="details" data-v-46ef82a4="">Use with Vuejs, Reactjs, Angular or any other front-end environment.</p>
+    <div class="container">
+        <div class="items">
+            <!-- Item -->
+            <div class="item grid-2">
+                <article class="VPFeature">
+                    <h2 class="title">Any framework</h2>
+                    <p class="details">Use with Vuejs, Reactjs, Angular or any other front-end environment.</p>
                 </article>
             </div>
             <!-- Item -->
-            <div class="item grid-2" data-v-caa71a02="">
-                <article class="VPFeature" data-v-46ef82a4="" data-v-caa71a02="">
-                    <!-- <div class="icon" data-v-46ef82a4="">⚡️</div> -->
-                    <h2 class="title" data-v-46ef82a4="">Small</h2>
-                    <p class="details" data-v-46ef82a4="">12kb (minified and gzipped bundle with all modules). No dependencies.</p>
+            <div class="item grid-2">
+                <article class="VPFeature">
+                    <h2 class="title">Small</h2>
+                    <p class="details">12kb (minified and gzipped bundle with all modules). No dependencies.</p>
                 </article>
             </div>
             <!-- Item -->
-            <div class="item grid-2" data-v-caa71a02="">
-                <article class="VPFeature" data-v-46ef82a4="" data-v-caa71a02="">
-                    <!-- <div class="icon" data-v-46ef82a4="">⚡️</div> -->
-                    <h2 class="title" data-v-46ef82a4="">Accelerated</h2>
-                    <p class="details" data-v-46ef82a4="">Hardware accelerated transitions and amazing native behavior.</p>
+            <div class="item grid-2">
+                <article class="VPFeature">
+                    <h2 class="title">Accelerated</h2>
+                    <p class="details">Hardware accelerated transitions and amazing native behavior.</p>
                 </article>
             </div>
             <!-- Item -->
-            <div class="item grid-2" data-v-caa71a02="">
-                <article class="VPFeature" data-v-46ef82a4="" data-v-caa71a02="">
-                    <!-- <div class="icon" data-v-46ef82a4="">⚡️</div> -->
-                    <h2 class="title" data-v-46ef82a4="">Progressive</h2>
-                    <p class="details" data-v-46ef82a4="">Panes is would be the best UI solution for mobile, web, or hybrid pwa applications.</p>
+            <div class="item grid-2">
+                <article class="VPFeature">
+                    <h2 class="title">Progressive</h2>
+                    <p class="details">Panes is would be the best UI solution for mobile, web, or hybrid pwa applications.</p>
                 </article>
             </div>
             <!-- Item -->
-            <div class="item grid-2" data-v-caa71a02="">
-                <article class="VPFeature" data-v-46ef82a4="" data-v-caa71a02="">
-                    <!-- <div class="icon" data-v-46ef82a4="">⚡️</div> -->
-                    <h2 class="title" data-v-46ef82a4="">Modularized</h2>
-                    <p class="details" data-v-46ef82a4="">Add extra features to your panes and create own modules.</p>
+            <div class="item grid-2">
+                <article class="VPFeature">
+                    <h2 class="title">Modularized</h2>
+                    <p class="details">Add extra features to your panes and create own modules.</p>
                 </article>
             </div>
             <!-- Item -->
-            <div class="item grid-2" data-v-caa71a02="">
-                <article class="VPFeature" data-v-46ef82a4="" data-v-caa71a02="">
-                    <!-- <div class="icon" data-v-46ef82a4="">⚡️</div> -->
-                    <h2 class="title" data-v-46ef82a4="">Innovative</h2>
-                    <p class="details" data-v-46ef82a4="">Right like in Apple Maps, Apple Stocks, Apple Music and other modern apps.</p>
+            <div class="item grid-2">
+                <article class="VPFeature">
+                    <h2 class="title">Innovative</h2>
+                    <p class="details">Right like in Apple Maps, Apple Stocks, Apple Music and other modern apps.</p>
                 </article>
             </div>
         </div>

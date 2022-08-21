@@ -24,21 +24,16 @@
 </style>
 
 <div class="index-logo">
-     <img class="light" alt="Cupertino Panes is multi-functional panes & boards with touch technologies" 
+     <img class="light" alt="Cupertino Panes – create modal, card, pane with touch technologies" 
         src="/logo.jpg" width="600" />
-     <img class="dark" alt="Cupertino Panes is multi-functional panes & boards with touch technologies" 
+     <img class="dark" alt="Cupertino Panes – create modal, card, pane with touch technologies" 
         src="/logo-dark.png" width="600" />
 </div>
 
 # Cupertino Panes
 
 
-
-<!-- <img src="https://user-images.githubusercontent.com/10646478/79794348-4846bc00-837c-11ea-8b74-7c71fac120aa.png" 
-     align="right" alt="Cupertino Pane logo Roman Antonov" width="260px" height="421px"> -->
-     
-Cupertino Panes is multi-functional panes & boards with touch technologies. <br>
-Easily create most modern dynamic Panes for your progressive applications in few steps.
+Create most modern dynamic modals, cards, panes for your progressive applications in few steps.
 
 
 <a class="VPButton medium brand" href="/getting-started" >Getting Started</a> | 

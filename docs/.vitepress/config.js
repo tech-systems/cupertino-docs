@@ -1,6 +1,6 @@
 export default {
     title: 'Cupertino Panes',
-    description: 'Easily create most modern dynamic Panes for your progressive applications in few steps. Any framework.',
+    description: 'Easily create most modern dynamic modals, cards, panes for your progressive applications in few steps. Any framework.',
     head: [
         [
           'script',
@@ -12,7 +12,8 @@ export default {
           "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-B5HS3ML7F7');"
         ],
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
-        ['meta', { property: 'og:image', content: '/logo-og.png'}]
+        ['meta', { property: 'og:image', content: '/logo-og.png'}],
+        ['meta', { name: 'keywords', content: 'create modal, create modal in react, pwa react, progressive app, pwa, modals, card css, animate css, css transition, mobile best, phone slide, using vue, vue component, translate ionic, ionic framework, javascript vue, code pen'}]
     ],
     themeConfig: {
         logo: '/logo.svg',

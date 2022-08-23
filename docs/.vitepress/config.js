@@ -9,7 +9,7 @@ export default {
         [
           'script',
           {},
-          "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-B5HS3ML7F7');"
+          "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-B5HS3ML7F7');\ngtag('config', 'AW-10972100318');"
         ],
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
         ['meta', { property: 'og:image', content: '/logo-og.png'}],

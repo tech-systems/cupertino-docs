@@ -93,9 +93,9 @@ Drag the Pane with your finger: Pane will follow this Synthwave perspective, goi
 How much time you will spend programming such sophisticated user gestures from zero? Also, Pane's behaviors should be smooth and reactive. This was achieved and maintained by hardware acceleration of transitions.
 
 ::: info SOURCES
-The full scene with **Panes** is available [here](https://output.jsbin.com/garijar)
+The full scene with **Panes** is available <a href="https://output.jsbin.com/garijar" rel="nofollow">here</a>
 
-Bitcoin conf 22" – [Robinhood application presentation](https://www.youtube.com/watch?v=YHsF4WNqxPA)
+Bitcoin conf 22" – <a href="https://www.youtube.com/watch?v=YHsF4WNqxPA" rel="nofollow">Robinhood application presentation</a>
 
 *Scene not used for any commercial purposes.*
 :::

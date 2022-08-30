@@ -62,7 +62,7 @@ The race is over, friendship is a winner. Every good package should have non-inv
     }    
 </style>
 <div class="pic-text">
-    <img width="200" height="406" loading="lazy" src="/demos/custom-transitions.gif" />
+    <img width="200" height="406" loading="lazy" src="/demos/custom-transitions.gif" alt="custom transition example, javascript vue, javascript angular, modal popup" />
     <div class="text">
         <p> 
             Look at this simple example and imagine how difficult to realize it with no tools.

@@ -4,7 +4,7 @@ Updated: 2022-08-15
 ---
 
 
-# Much more sweetest advantages of using Panes for your next Front-end project 🍰
+# Why using javascript vue or angular component for modal css card ?
 
 > Have you ever imagined how to create such a sophisticated user interface, that using on the front screen of the Tesla Model S plaid? A bunch of flying panels and floating windows help to make your control experience smooth in all aspects. Moreover, the iPhone has almost become an almost natural continuous of your body and consciousness. **Panes** is a key that opens a door for future interfaces where your thoughts are integrated with the program.
 
@@ -148,19 +148,3 @@ But these massive abilities, that package open for users, surely propose to call
 
 ---
 Do you wanna see it all in action? [Getting started!](/getting-started) 
-
-::: info Keywords
-async/await
-react
-vue
-angular
-javascript
-typescript
-framework
-ionic
-library
-programming language
-top programming languages
-create component
-front-end
-:::

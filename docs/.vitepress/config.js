@@ -1,6 +1,6 @@
 export default {
     title: 'Cupertino Panes',
-    description: 'Easily create most modern dynamic modals, cards, panes for your progressive applications in few steps. Any framework.',
+    description: 'Javascript library for dynamic modals, cards, panes. Create modal or css card for your javascript vue or angular pwa applications in few steps. Any framework.',
     head: [
         [
           'script',
@@ -13,7 +13,7 @@ export default {
         ],
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
         ['meta', { property: 'og:image', content: '/logo-og.png'}],
-        ['meta', { name: 'keywords', content: 'create modal, create modal in react, pwa react, progressive app, pwa, modals, card css, animate css, css transition, mobile best, phone slide, using vue, vue component, translate ionic, ionic framework, javascript vue, code pen'}]
+        ['meta', { name: 'keywords', content: 'javascript vue, javascript angular, modal popup, create modal, create modal in react, pwa react, progressive app, pwa, modals, card css, animate css, css transition, mobile best, phone slide, using vue, vue component, translate ionic, ionic framework, code pen'}]
     ],
     themeConfig: {
         logo: '/logo.svg',

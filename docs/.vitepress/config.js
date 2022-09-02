@@ -12,7 +12,7 @@ export default {
           "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-B5HS3ML7F7');\ngtag('config', 'AW-10972100318');"
         ],
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
-        ['meta', { property: 'og:image', content: '/logo-og.png'}],
+        ['meta', { property: 'og:image', content: '/logo-og.jpg'}],
         ['meta', { name: 'keywords', content: 'javascript vue, javascript angular, modal popup, create modal, create modal in react, pwa react, progressive app, pwa, modals, card css, animate css, css transition, mobile best, phone slide, using vue, vue component, translate ionic, ionic framework, code pen'}]
     ],
     themeConfig: {

@@ -5,7 +5,7 @@
 | **horizontal** | `boolean` | false | Drag by horizontal axis will be possible on `true` and left right screen edge will automatically recognized as horizontal breakpoints |
 | **horizontalOffset** | `number` | 'null' | Margin left and right for screen edges used with horizontal gestures |
 | **inverse** | `boolean` | false | On `true` will change pane direction from `bottom-to-top` to `top-to-bottom` |
-| **parentElement** | `string` | Parent element selector | Element selector where pane will rendered |
+| **parentElement** | `string | HTMLElement` | Parent element | Pane will be appended to this element as child |
 | **followerElement** | `string` | Follower element selector | Element with selector will following pane transitions |
 | **cssClass** | `string` | null | Additional classes to apply for wrapper to stylize different panes |
 | **fitHeight** | `boolean` | 'false' | Automatically calc and define content height as top breakpoint. Middle and bottom breakpoint will be disabled |

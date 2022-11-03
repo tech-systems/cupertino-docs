@@ -57,6 +57,7 @@ let settings = {
 | - | - | - | - |
 | **pushElements** | `string[]` | null | DOM Element will be pushed and scaled |
 | **minPushHeight** | `number` | null | Height from which 3d push effect will be started |
+| **cardBorderRadius** | `number` | null | Border radius for pushed elements |
 | **cardYOffset** | `number` | null | Margin value to place pushed elements upper |
 | **cardZScale** | `number` | 0.93 | Scale value for each pushed element |
 | **cardContrast** | `number` | 0.85 | Contrast value for each pushed element |

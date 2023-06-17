@@ -11,6 +11,7 @@
 | **fitHeight** | `boolean` | 'false' | Automatically calc and define content height as top breakpoint. Middle and bottom breakpoint will be disabled |
 | **maxFitHeight** | `number` | 'null' | Define a maximum possible automatically calculated height with `fitHeight` property |
 | **fitScreenHeight** | `boolean` | 'true' | On `true` will automatically adjust pane maximum height to screen height |
+| **ionContentScroll** | `boolean` | 'false' | On `false` will add scroll-y="false" attribute to ion-content directive when pane is visible |
 | **initialBreak** | `'top' \| 'middle' \| 'bottom'` | 'middle' | Initial pane position |
 | **backdrop** | `boolean` | false | Dimmed overlay will rendered with pane if `true` |
 | **backdropOpacity** | `number` | 0.4 | Dimmed overlay opacity value |

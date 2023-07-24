@@ -13,9 +13,12 @@
     "blog:build": "node collect-blog.mjs"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.4",
-    "vue": "^3.2.37",
     "gray-matter": "latest",
-    "remove-markdown": "latest"
+    "remove-markdown": "latest",
+    "vitepress": "1.0.0-beta.6",
+    "vue": "3.3.4"
+  },
+  "dependencies": {
+    "@stackblitz/sdk": "^1.9.0"
   }
 }

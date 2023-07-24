@@ -34,11 +34,32 @@ export default {
 function docsSidebar() {
   return [
     {
-      // text: 'Guide',
+      text: 'Documentation',
       items: [
         { text: 'Introduction', link: '/' },
-        { text: 'Demonstration', link: '/demonstration' },
         { text: 'Getting Started', link: '/getting-started' },
+        { 
+          text: 'Demonstration', link: 'demonstration',
+          items: [
+            { text: 'Base', link: '/demo/base' },
+            { text: 'Overflow Top', link: '/demo/overflow-top' },
+            { text: 'Auto Height', link: '/demo/auto-height' },
+            { text: 'Top-to-Bottom', link: '/demo/top-to-bottom' },
+            { text: 'Synthwave', link: '/demo/synthwave' },
+            { text: 'Picture-in-Picture', link: '/demo/picture-in-picture' },
+            { text: 'Rich notifications', link: '/demo/rich-notifications' },
+            { text: 'Z-stack full', link: '/demo/z-stack-full' },
+            { text: 'Z-Stack simple', link: '/demo/z-stack-simple' },
+            { text: '3D Push', link: '/demo/3d-push' },
+            { text: 'Backdrop drag-opacity', link: '/demo/backdrop-drag-opacity' },
+            { text: 'Overflow Top-Middle', link: '/demo/overflow-top-middle' },
+            { text: 'Draggable Over', link: '/demo/draggable-over' },
+            { text: 'Prevent Dismiss', link: '/demo/prevent-dismiss' },
+            { text: 'Follower', link: '/demo/follower' },
+            { text: 'Apple Clips', link: '/demo/apple-clips' },
+            { text: 'Starbucks', link: '/demo/starbucks' },
+          ]
+        },
         { text: 'Modules', link: '/modules' },
         { text: 'Settings', link: '/settings' },
         { text: 'Events', link: '/events' },

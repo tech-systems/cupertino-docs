@@ -1,7 +1,10 @@
 # Draggable Over
 
-- [Live in new page](https://jsfiddle.net/romantonoff/1fbjn5wq/show)
-- [Code sources](https://jsfiddle.net/romantonoff/1fbjn5wq)
+--------
+<script setup>
+    import CodeButtons from '../../src/components/CodeButtons.vue';
+</script>
+<CodeButtons jsfiddle="1fbjn5wq"></CodeButtons>
 
 ## Playground
 <iframe width="100%" height="800" src="//jsfiddle.net/romantonoff/1fbjn5wq/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

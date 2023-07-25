@@ -1,7 +1,10 @@
 # Follower
 
-- [Live in new page](https://jsfiddle.net/romantonoff/wLy20bfc/show)
-- [Code sources](https://jsfiddle.net/romantonoff/wLy20bfc)
+--------
+<script setup>
+    import CodeButtons from '../../src/components/CodeButtons.vue';
+</script>
+<CodeButtons jsfiddle="wLy20bfc"></CodeButtons>
 
 ## Playground
 <iframe width="100%" height="800" src="//jsfiddle.net/romantonoff/wLy20bfc/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

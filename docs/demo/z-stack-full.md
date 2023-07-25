@@ -1,7 +1,10 @@
 # Z-Stack Full
 
-- [Live in new page](https://jsfiddle.net/romantonoff/ue1q9pfo/show)
-- [Code sources](https://jsfiddle.net/romantonoff/ue1q9pfo)
+--------
+<script setup>
+    import CodeButtons from '../../src/components/CodeButtons.vue';
+</script>
+<CodeButtons jsfiddle="ue1q9pfo"></CodeButtons>
 
 ## Playground
 <iframe width="100%" height="800" src="//jsfiddle.net/romantonoff/ue1q9pfo/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

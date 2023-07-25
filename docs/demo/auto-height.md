@@ -1,7 +1,10 @@
 # Auto Height (fitHeight)
 
-- [Live in new page](https://jsfiddle.net/romantonoff/b4s5kjdr/show)
-- [Code sources](https://jsfiddle.net/romantonoff/b4s5kjdr)
+--------
+<script setup>
+    import CodeButtons from '../../src/components/CodeButtons.vue';
+</script>
+<CodeButtons jsfiddle="b4s5kjdr"></CodeButtons>
 
 ## Playground
 <iframe width="100%" height="800" src="//jsfiddle.net/romantonoff/b4s5kjdr/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

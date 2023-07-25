@@ -1,7 +1,10 @@
 # Rich Notifications
 
-- [Live in new page](https://jsfiddle.net/romantonoff/tum47q8n/show)
-- [Code sources](https://jsfiddle.net/romantonoff/tum47q8n)
+--------
+<script setup>
+    import CodeButtons from '../../src/components/CodeButtons.vue';
+</script>
+<CodeButtons jsfiddle="tum47q8n"></CodeButtons>
 
 ## Playground
 <iframe width="100%" height="800" src="//jsfiddle.net/romantonoff/tum47q8n/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

@@ -1,7 +1,10 @@
 # Backdrop drag-opacity
 
-- [Live in new page](https://jsfiddle.net/romantonoff/kj0z2645/show)
-- [Code sources](https://jsfiddle.net/romantonoff/kj0z2645)
+--------
+<script setup>
+    import CodeButtons from '../../src/components/CodeButtons.vue';
+</script>
+<CodeButtons jsfiddle="kj0z2645"></CodeButtons>
 
 ## Playground
 <iframe width="100%" height="800" src="//jsfiddle.net/romantonoff/kj0z2645/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

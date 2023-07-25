@@ -1,8 +1,10 @@
 # Base
 
-
-- [Live in new page](https://jsfiddle.net/romantonoff/zbk6mnj9/show)
-- [Code sources](https://jsfiddle.net/romantonoff/zbk6mnj9)
+--------
+<script setup>
+    import CodeButtons from '../../src/components/CodeButtons.vue';
+</script>
+<CodeButtons jsfiddle="zbk6mnj9"></CodeButtons>
 
 ## Playground
 <iframe width="100%" height="800" src="//jsfiddle.net/romantonoff/zbk6mnj9/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

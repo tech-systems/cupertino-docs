@@ -1,7 +1,10 @@
 # Picture-in-Picture (Horizontal)
 
-- [Live in new page](https://jsfiddle.net/romantonoff/h5b10cdo/show)
-- [Code sources](https://jsfiddle.net/romantonoff/h5b10cdo)
+--------
+<script setup>
+    import CodeButtons from '../../src/components/CodeButtons.vue';
+</script>
+<CodeButtons jsfiddle="h5b10cdo"></CodeButtons>
 
 ## Playground
 <iframe width="100%" height="800" src="//jsfiddle.net/romantonoff/h5b10cdo/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

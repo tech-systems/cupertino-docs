@@ -1,7 +1,10 @@
 # Synthwave
 
-- [Live in new page](https://jsfiddle.net/romantonoff/5ovw8c13/show)
-- [Code sources](https://jsfiddle.net/romantonoff/5ovw8c13)
+--------
+<script setup>
+    import CodeButtons from '../../src/components/CodeButtons.vue';
+</script>
+<CodeButtons jsfiddle="5ovw8c13"></CodeButtons>
 
 ## Playground
 <iframe width="100%" height="800" src="//jsfiddle.net/romantonoff/5ovw8c13/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

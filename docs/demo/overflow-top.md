@@ -1,7 +1,10 @@
 # Overflow Top
 
-- [Live in new page](https://jsfiddle.net/romantonoff/vep7t9hy/show)
-- [Code sources](https://jsfiddle.net/romantonoff/vep7t9hy)
+--------
+<script setup>
+    import CodeButtons from '../../src/components/CodeButtons.vue';
+</script>
+<CodeButtons jsfiddle="vep7t9hy"></CodeButtons>
 
 ## Playground
 <iframe width="100%" height="800" src="//jsfiddle.net/romantonoff/vep7t9hy/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>

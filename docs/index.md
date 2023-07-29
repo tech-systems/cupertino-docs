@@ -31,10 +31,9 @@
 </div>
 
 # Cupertino Panes
-
-
-### Create most modern dynamic modals, cards, panes for your progressive applications in few steps. 
 #### One instance – Thousands solutions.
+Create most modern dynamic modals, cards, panes for your progressive applications in few steps. 
+
 
 <a class="VPButton medium brand" href="/getting-started" >Getting Started</a>
 <a class="VPButton medium brand" href="/demonstration" >Demonstration</a>

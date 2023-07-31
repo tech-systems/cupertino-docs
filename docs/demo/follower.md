@@ -10,7 +10,7 @@
 <iframe width="100%" height="800" src="//jsfiddle.net/romantonoff/wLy20bfc/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## JavaScript
-<iframe width="100%" height="300" src="//jsfiddle.net/romantonoff/wLy20bfc/embedded/js,html,css/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<iframe width="100%" height="600" src="//jsfiddle.net/romantonoff/wLy20bfc/embedded/js,html,css/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 ## React
 <small>*Need an example ? Please create an [issue](https://github.com/roman-rr/cupertino-pane/issues/new/choose)*</small>

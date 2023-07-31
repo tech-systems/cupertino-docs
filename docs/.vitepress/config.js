@@ -18,7 +18,7 @@ export default {
     themeConfig: {
         logo: '/logo.svg',
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/roman-rr/cupertino-pane' }
+            { icon: 'github', link: 'https://github.com/tech-systems/panes' }
         ],
         nav: [
           { text: 'Docs', link: '/' },

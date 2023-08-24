@@ -8,7 +8,7 @@
         border-radius: 20px;
         padding: 0 20px;
         line-height: 38px;
-        font-size: 14px;
+        font-size: 15px;
         display: inline-block;
         border: 1px solid var(--vp-button-alt-border);
         text-align: center;
@@ -17,7 +17,7 @@
         transition: color .25s,border-color .25s,background-color .25s;
         text-decoration: inherit !important;
         touch-action: manipulation;
-        margin-right: 8px;
+        margin-right: 20px;
     }
     .VPButton:hover,.VPButton:active, .VPButton:focus  {
         background-color: var(--vp-button-alt-hover-bg);

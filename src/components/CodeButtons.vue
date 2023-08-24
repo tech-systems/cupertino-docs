@@ -17,7 +17,7 @@
         transition: color .25s,border-color .25s,background-color .25s;
         text-decoration: inherit !important;
         touch-action: manipulation;
-        margin-right: 20px;
+        margin-right: 10px;
     }
     .VPButton:hover,.VPButton:active, .VPButton:focus  {
         background-color: var(--vp-button-alt-hover-bg);

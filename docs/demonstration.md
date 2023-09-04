@@ -1,5 +1,6 @@
 # Demonstration
 
+- [Modal](/demo/modal.html)
 - [Base](/demo/base.html)
 - [Overflow Top](/demo/overflow-top.html)
 - [Auto Height](/demo/auto-height.html)

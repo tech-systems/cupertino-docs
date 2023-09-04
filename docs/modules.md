@@ -40,25 +40,3 @@ npm run build -- --modules="" // will not include any modules
 npm run build -- --modules="ZStackModule, BackdropModule" // Cherry-pick your modules 
 ```
 As output you will have your `umd` and `esm` builds in `dist` folder.
-
-
-## Z-Stack
-Configuration for 3D push effects and z-stack
-```js
-let settings = {
-  ...
-  zStack: {
-    pushElements: ['.card-1', '.main-content'],
-    pushYOffset: 10
-  }
-}
-```
-| Property | Type | Default | Description |
-| - | - | - | - |
-| **pushElements** | `string[]` | null | DOM Element will be pushed and scaled |
-| **minPushHeight** | `number` | null | Height from which 3d push effect will be started |
-| **cardBorderRadius** | `number` | null | Border radius for pushed elements |
-| **cardYOffset** | `number` | null | Margin value to place pushed elements upper |
-| **cardZScale** | `number` | 0.93 | Scale value for each pushed element |
-| **cardContrast** | `number` | 0.85 | Contrast value for each pushed element |
-| **stackZAngle** | `number` | 160 | Value from 0 to 3000 that define angle of z-stack in common. 0 - 150 positive expontial angle. 150 - 170 = 45 degree angle. 200 - 3000 negative exponential angle |

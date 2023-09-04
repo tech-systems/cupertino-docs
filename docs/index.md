@@ -35,8 +35,10 @@
 Create most modern dynamic modals, cards, panes for your progressive applications in few steps. One instance – Thousands solutions.
 
 
-<a class="VPButton medium brand" href="/getting-started" >Getting Started</a>
-<a class="VPButton medium brand" href="/demonstration" >Demonstration</a>
+<div style="margin-bottom: 30px">
+    <a style="margin-right: 15px;" href="/getting-started" >Getting Started</a>
+    <a href="/demonstration" >Demonstration</a>
+</div>
 
 <style lang="css">
     .VPFeatures.VPHomeFeatures .container {
@@ -140,7 +142,7 @@ Create most modern dynamic modals, cards, panes for your progressive application
 
 
 ::: tip
-⭐ We appreciate your star at our repository, it's our main fuel and really helps!
+⭐ We appreciate your star at our [repository](https://github.com/tech-systems/panes), it's our main fuel and really helps!
 :::
 
 ## Financial Contributors

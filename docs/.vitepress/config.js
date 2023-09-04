@@ -41,6 +41,7 @@ function docsSidebar() {
         { 
           text: 'Demonstration', link: 'demonstration',
           items: [
+            { text: 'Modal', link: '/demo/modal' },
             { text: 'Base', link: '/demo/base' },
             { text: 'Overflow Top', link: '/demo/overflow-top' },
             { text: 'Auto Height', link: '/demo/auto-height' },

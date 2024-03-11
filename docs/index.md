@@ -159,7 +159,7 @@ Support this project with your organization. Your logo will show up here with a 
 
 <a href="https://opencollective.com/cupertino-pane"><img src="https://opencollective.com/cupertino-pane/organizations.svg?width=890"></a>
 
-<iframe src="https://opencollective.com/embed/cupertino-pane/donate" style="width: 100%; min-height: 100vh;"></iframe>
+<iframe src="https://opencollective.com/embed/cupertino-pane/donate?hideFAQ=true&useTheme=true" style="width: 100%; min-height: 100vh;"></iframe>
 
 ## Supporting platforms
 We officially support the last two versions of every major browser. Specifically, we test on the following browsers

@@ -101,8 +101,8 @@ myPane.backdrop({show: false}); // hide
 ```
 
 ## setBreakpoints
-### setBreakpoints(breakpoints: **PaneBreaks**)
-Method updates breakpoints configuration for rendered Pane
+### setBreakpoints(breakpoints: **PaneBreaks**, bottomOffset?: number)
+Method updates breakpoints configuration and bottomOffset for rendered Pane
 ```javascript
 myPane.setBreakpoints({
   top: {
@@ -113,6 +113,12 @@ myPane.setBreakpoints({
   middle: { ... },
   bottom: { ... }
 });
+
+myPane.setBreakpoints({
+  top: { ... },
+  middle: { ... },
+  bottom: { ... }
+}, 100 );
 ```
 
 ## preventDismiss

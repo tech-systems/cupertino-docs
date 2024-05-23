@@ -19,4 +19,5 @@
 <small>*Need an example ? Please create an [issue](https://github.com/roman-rr/cupertino-pane/issues/new/choose)*</small>
 
 ## Vue
-<small>*Need an example ? Please create an [issue](https://github.com/roman-rr/cupertino-pane/issues/new/choose)*</small>
+Basic usage of Panes with Vue 3 framework is [panes-vue3-example](https://github.com/tech-systems/panes-vue3-example)
+<small>*Need more examples ? Please create an [issue](https://github.com/roman-rr/cupertino-pane/issues/new/choose)*</small>

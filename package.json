@@ -8,15 +8,17 @@
   "license": "MIT",
   "scripts": {
     "docs:dev": "vitepress dev docs",
+    "docs:preview": "vitepress preview docs",
     "docs:build": "yarn blog:build && vitepress build docs",
     "docs:serve": "vitepress serve docs",
     "blog:build": "node collect-blog.mjs"
   },
   "devDependencies": {
+    "cupertino-pane": "^1.4.21",
     "gray-matter": "latest",
     "remove-markdown": "latest",
-    "vitepress": "^1.0.0-rc.10",
-    "vue": "3.3.4"
+    "vitepress": "1.3.1",
+    "vue": "3.4.34"
   },
   "dependencies": {
     "@stackblitz/sdk": "^1.9.0"

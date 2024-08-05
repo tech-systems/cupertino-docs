@@ -1,3 +1,7 @@
+import { createRequire } from 'module'
+const require = createRequire(import.meta.url)
+const pkg = require('cupertino-pane/package.json')
+
 export default {
     title: 'Cupertino Panes',
     description: 'Javascript library for dynamic modals, cards, panes. Create modal or css card for your javascript vue or angular pwa applications in few steps. Any framework.',
@@ -17,12 +21,27 @@ export default {
     ],
     themeConfig: {
         logo: '/logo.svg',
+        appearance: 'dark',
         socialLinks: [
             { icon: 'github', link: 'https://github.com/tech-systems/panes' }
         ],
         nav: [
-          { text: 'Docs', link: '/' },
-          { text: 'Blog', link: '/blog/', activeMatch: '/blog' }
+          { text: 'Docs', link: '/introduction' },
+          { text: 'Sponsors', link: '/sponsors' },
+          { text: 'Blog', link: '/blog/', activeMatch: '/blog' },
+          {
+            text: pkg.version,
+            items: [
+              {
+                text: 'Changelog',
+                link: 'https://github.com/tech-systems/panes/blob/master/CHANGELOG.md'
+              },
+              {
+                text: 'Contributing',
+                link: 'https://github.com/tech-systems/panes/blob/master/CONTRIBUTING.md'
+              }
+            ]
+          }
         ],
         sidebar: {
           '/blog/': blogSidebar(),
@@ -36,10 +55,11 @@ function docsSidebar() {
     {
       text: 'Documentation',
       items: [
-        { text: 'Introduction', link: '/' },
+        { text: 'Home', link: '/' },
+        { text: 'Introduction', link: '/introduction' },
         { text: 'Getting Started', link: '/getting-started' },
         { 
-          text: 'Demonstration', link: 'demonstration',
+          text: 'Demonstration', link: '/demonstration',
           items: [
             { text: 'Modal', link: '/demo/modal' },
             { text: 'Base', link: '/demo/base' },

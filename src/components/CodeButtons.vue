@@ -24,7 +24,7 @@
     }
 </style>
 <template>
-    <a class="VPButton" :href="`http://localhost:5173/index-solutions/demo.html?id=${props.jsfiddle}`" target="_blank" rel="noreferrer">
+    <a class="VPButton" :href="`/index-solutions/demo.html?id=${props.jsfiddle}`" target="_blank" rel="noreferrer">
         Open in New Tab
     </a>
 

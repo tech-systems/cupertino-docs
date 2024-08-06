@@ -64,7 +64,7 @@ window.addEventListener('resize', debounce(resizeAjusting, 250));
 }
 
 .cupertino-pane-wrapper .pane {
-      margin-top: -370px;
+      margin-top: -40vh;
       border-radius: 10px !important;
       backdrop-filter: saturate(180%) blur(20px);
       -webkit-backdrop-filter: saturate(180%) blur(20px);

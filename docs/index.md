@@ -119,25 +119,19 @@ features:
 }
 
 
+  @media screen and (max-width: 950px) {
+    .main {
+      margin-top: -10px !important;
+    }
+
+    .image {
+      display: none;
+    }
+
+  }
+
 </style>
 
-
-<script setup>
-  import HomeModal from '../src/components/HomeModal.vue';
-  import Sponsorships from '../src/components/Sponsorships.vue';
-
-
-  setTimeout(() => {
-    let solutionsHeader = document.querySelector('#solutions');
-    let solutions = document.querySelector('.solutions');
-    let solutionsPosttext = document.querySelector('#and-thousands-more');
-    if ( window.innerWidth < 950) {
-      solutionsHeader.style.display = 'none';
-      solutions.style.display = 'none';
-      solutionsPosttext.style.display = 'none';
-    }
-  });
-</script>
 
 ## Solutions
 
@@ -185,9 +179,17 @@ features:
   
 </div> 
 
-One instance – Thousands solutions!
+<p class="and-thousands-more">
+  One instance – Thousands solutions!
+</p>
 
 
+<script setup>
+  import HomeModal from '../src/components/HomeModal.vue';
+  import Sponsorships from '../src/components/Sponsorships.vue';
+  import GridHome from '../src/components/GridHome.vue';
+</script>
 
 <Sponsorships />
 <HomeModal />
+<GridHome />

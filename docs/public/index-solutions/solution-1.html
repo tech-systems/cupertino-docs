@@ -27,17 +27,51 @@
             background-position-x: center;
         }
      
-        #neo-grid {
-            position: absolute;
-            top: -650px;
-            left: -20%;
-            width: 140%;
-            height: 260vh;
-            display: block;
-        }
-    </style>
+       
+
+        
+
+.arrows {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: 300ms ease-in-out;
+  position: absolute;
+  top: 8px;
+  left:0;
+  opacity: 0;
+}
+
+.arrows svg {
+  color: #4a4c55;
+  width: 24px;
+}
+
+.arrows.t1 svg {
+  animation: upArrow1 2s infinite;
+}
+
+@keyframes upArrow1 {
+  0% { transform: translate3d(0px, 0px, 0px); }
+  50% { transform: translate3d(0px, -10px, 0px); }
+  100% { transform: translate3d(0px, 0px, 0px); }
+}
+
+
+</style>
   </head>
   <body mode="ios">
+
+    <!-- // Arrows 1 -->
+    <div class="arrows t1">
+          <div class="up">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 328l144-144 144 144"/></svg>
+          </div>
+      </div>
+
     <div class="solution">
         <div class="item"></div>
     </div>
@@ -47,6 +81,7 @@
 
 <script>
     window.onload = function() {
+        let arrows = document.querySelector('.arrows');
         const solution = new CupertinoPane('.solution', {
             buttonDestroy: false,
             initialBreak: 'bottom',
@@ -57,5 +92,8 @@
             }
         });
         solution.present({animate: true});
+        solution.on('onDidPresent', () => arrows.style.opacity = '1');
+        solution.on('onDragStart', () => arrows.style.opacity = '0');
+        solution.on('onDragEnd', () => arrows.style.opacity = '1');
     };
 </script>

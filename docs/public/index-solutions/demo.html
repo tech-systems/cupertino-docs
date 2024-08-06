@@ -1,0 +1,46 @@
+<html mode="ios" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+      body {
+        overflow: hidden; /* Disable scrolling */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+        height: 100vh; /* Set body height to 100vh */
+        display: flex; /* Use flexbox to center iframe */
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      }
+
+      iframe {
+        width: 100vw; /* Full viewport width */
+        height: 100vh; /* Full viewport height */
+        border: none; /* Remove iframe border */
+      }
+    </style>
+  </head>
+  <body mode="ios">
+    <script>
+      // Function to get URL parameters
+      function getUrlParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+      }
+
+      // Get 'id' parameter from the URL
+      var id = getUrlParameter('id');
+
+      // Inject iframe
+      if (id) {
+        var iframe = document.createElement('iframe');
+        iframe.src = '//jsfiddle.net/romantonoff/' + id + '/embedded/result/dark/';
+        iframe.allowFullscreen = true;
+        iframe.allowPaymentRequest = true;
+        document.body.appendChild(iframe);
+      }
+    </script>
+  </body>
+</html>

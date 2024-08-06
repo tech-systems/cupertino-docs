@@ -1,30 +1,56 @@
 <script setup>
 import { CupertinoPane } from 'https://unpkg.com/cupertino-pane/dist/cupertino-pane.esm.min.js'
-window.CupertinoPane = CupertinoPane;
+
+let codeExample,  imageContainer, solutionsHeader, solutions, solutionsPosttext;
+
+// Debounce function to limit the rate of the resize event handler
+function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+}
+
+function resizeAjusting() {
+    if ( window.innerWidth >= 950) {
+        // Desktop ++
+        solutionsHeader.style.display = 'block';
+        solutions.style.display = 'flex';
+        solutionsPosttext.style.display = 'block';
+
+        // Modal
+        const drawer = new CupertinoPane('.drawer', {
+            parentElement: '.image-container',
+            modal: {
+                transition: 'zoom',
+                flying: true
+            }
+        });
+        drawer.present({animate: true});
+        drawer.on('onDidDismiss', (ev) => drawer.present({animate: true}));
+
+        imageContainer.appendChild(codeExample);
+        codeExample.style.display = 'block';
+    } else {
+        solutionsHeader.style.display = 'none';
+        solutions.style.display = 'none';
+        solutionsPosttext.style.display = 'none';
+    }
+}
 
 setTimeout(() => {
-    let codeExample = document.querySelector('code.example');
-    let imageContainer = document.querySelector('.image-container');
-    
-    if ( window.innerWidth >= 950) {
+    codeExample = document.querySelector('code.example');
+    imageContainer = document.querySelector('.image-container');
+    solutionsHeader = document.querySelector('#solutions');
+    solutions = document.querySelector('.solutions');
+    solutionsPosttext = document.querySelector('.and-thousands-more');
 
-            // Modal
-            const drawer = new CupertinoPane('.drawer', {
-                parentElement: '.image-container',
-                modal: {
-                    transition: 'zoom',
-                    flying: true
-                }
-            });
-            drawer.present({animate: true});
-            drawer.on('onDidDismiss', (ev) => drawer.present({animate: true}));
-
-            imageContainer.appendChild(codeExample);
-            codeExample.style.display = 'block';
-    } else {
-
-    }
+    resizeAjusting();
 });
+
+window.addEventListener('resize', debounce(resizeAjusting, 250));
+
 </script>
 <style>
 
@@ -43,6 +69,7 @@ setTimeout(() => {
       height: 180px !important;
       /* border: 1px solid rgb(106 106 106); */
       background: rgba(0,0,0,.8);
+      backdrop-filter: blur(20px);
     }
 
     .drawer {
@@ -70,11 +97,16 @@ setTimeout(() => {
         position: absolute;
         display: none;
         font-style: italic;
-        background: rgba(0, 0, 0, .3);
+        background: #ffffff;
         padding: 15px 40px;
         bottom: -20px;
+        backdrop-filter: blur(20px);
         font-size: 13px;
         border-radius: 6px;
+
+        .dark & {
+            background: rgba(0, 0, 0, .4);
+        }
     }
 
     code.example::before {
@@ -83,11 +115,15 @@ setTimeout(() => {
         height: 0;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-bottom: 10px solid rgba(0, 0, 0, .3);;
+        border-bottom: 10px solid #ffffff;
         position: absolute;
         top: -10px;
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    .dark code.example::before  {
+        border-bottom: 10px solid rgba(0, 0, 0, .4) !important;
     }
 </style>
 <template>

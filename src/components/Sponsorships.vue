@@ -82,7 +82,7 @@
     h3 {
       font-size: 23px;
       margin-top: 50px;
-      margin-bottom: 30px;
+      margin-bottom: 30px !important;
     }
 }
 </style>

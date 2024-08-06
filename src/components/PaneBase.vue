@@ -1,7 +1,9 @@
 <script setup>
-    // import { CupertinoPane } from 'https://unpkg.com/cupertino-pane/dist/cupertino-pane.esm.min.js'
+    import * as CupertinoPane from 'cupertino-pane';
+    let cupertinoPane = CupertinoPane.CupertinoPane;
+
     setTimeout(() => {
-        const drawer = new CupertinoPane('.drawer');
+        const drawer = new cupertinoPane('.drawer');
         drawer.present({animate: true});
     });
 </script>

@@ -1,5 +1,9 @@
 <script setup>
-// import { CupertinoPane } from 'https://unpkg.com/cupertino-pane/dist/cupertino-pane.esm.min.js'
+import * as CupertinoPane from 'cupertino-pane';
+let cupertinoPane = CupertinoPane.CupertinoPane;
+import { onMounted } from 'vue';
+
+onMounted(() => {
 
 let codeExample,  imageContainer, solutionsHeader, solutions, solutionsPosttext;
 
@@ -20,7 +24,7 @@ function resizeAjusting() {
         solutionsPosttext.style.display = 'block';
 
         // Modal
-        const drawer = new CupertinoPane('.drawer', {
+        const drawer = new cupertinoPane('.drawer', {
             parentElement: '.image-container',
             modal: {
                 transition: 'zoom',
@@ -51,6 +55,7 @@ setTimeout(() => {
 
 window.addEventListener('resize', debounce(resizeAjusting, 250));
 
+});
 </script>
 <style>
 

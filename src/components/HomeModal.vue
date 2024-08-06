@@ -1,5 +1,5 @@
 <script setup>
-import { CupertinoPane } from 'https://unpkg.com/cupertino-pane/dist/cupertino-pane.esm.min.js'
+// import { CupertinoPane } from 'https://unpkg.com/cupertino-pane/dist/cupertino-pane.esm.min.js'
 
 let codeExample,  imageContainer, solutionsHeader, solutions, solutionsPosttext;
 

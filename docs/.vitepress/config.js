@@ -61,6 +61,7 @@ function docsSidebar() {
         { 
           text: 'Demonstration', link: '/demonstration',
           items: [
+            { text: 'AI Chatbot', link: '/demo/ai-chatbot' },
             { text: 'Modal', link: '/demo/modal' },
             { text: 'Base', link: '/demo/base' },
             { text: 'Overflow Top', link: '/demo/overflow-top' },

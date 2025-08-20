@@ -1,5 +1,6 @@
 # Demonstration
 
+- [AI Chatbot](/demo/ai-chatbot.html)
 - [Modal](/demo/modal.html)
 - [Base](/demo/base.html)
 - [Overflow Top](/demo/overflow-top.html)

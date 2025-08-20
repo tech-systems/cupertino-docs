@@ -276,7 +276,6 @@ function handleWindowResize() {
   // If we're in mobile fullscreen mode but no longer on mobile, exit fullscreen
   if (isMobileMaximized && !isMobile()) {
     pane.classList.remove('mobile-fullscreen');
-    pane.classList.remove('pane-maximized');
     isMobileMaximized = false;
     
     // Clear any active transitions
@@ -316,7 +315,6 @@ function handleWindowResize() {
     if (chatContainer) {
       chatContainer.classList.remove('desktop-maximized');
     }
-    pane.classList.remove('pane-maximized');
     isMaximized = false;
     
     // Clear any active transitions
@@ -803,7 +801,6 @@ function toggleMobileMaximize(pane, maximizeIcon, chatContainer) {
     
     // Remove mobile fullscreen class
     pane.classList.remove('mobile-fullscreen');
-    pane.classList.remove('pane-maximized');
     maximizeIcon.setAttribute('name', 'expand-outline');
     chatContainer.classList.remove('maximized');
     isMobileMaximized = false;
@@ -902,7 +899,6 @@ function toggleMobileMaximize(pane, maximizeIcon, chatContainer) {
     
     // Add mobile fullscreen class and set styles
     pane.classList.add('mobile-fullscreen');
-    pane.classList.add('pane-maximized');
     maximizeIcon.setAttribute('name', 'contract-outline');
     chatContainer.classList.add('maximized');
     isMobileMaximized = true;
@@ -957,7 +953,6 @@ function toggleDesktopMaximize(pane, maximizeIcon, chatContainer) {
     
     maximizeIcon.setAttribute('name', 'expand-outline');
     chatContainer.classList.remove('desktop-maximized');
-    pane.classList.remove('pane-maximized');
     isMaximized = false;
   } else {
     // Maximize to double width, but respect viewport constraints
@@ -969,7 +964,6 @@ function toggleDesktopMaximize(pane, maximizeIcon, chatContainer) {
     
     maximizeIcon.setAttribute('name', 'contract-outline');
     chatContainer.classList.add('desktop-maximized');
-    pane.classList.add('pane-maximized');
     isMaximized = true;
   }
 

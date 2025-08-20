@@ -1,5 +1,13 @@
 <script setup>
-    const props = defineProps(['jsfiddle'])
+    const props = defineProps({
+        jsfiddle: String,
+        repositoryUrl: {
+            type: String,
+            default: 'https://github.com/tech-systems/cupertino-docs'
+        },
+        folderPath: String,
+        demoPath: String
+    })
 </script>
 <style>
     .VPButton {
@@ -24,11 +32,19 @@
     }
 </style>
 <template>
-    <a class="VPButton" :href="`/index-solutions/demo.html?id=${props.jsfiddle}`" target="_blank" rel="noreferrer">
+    <!-- Open in New Tab Button -->
+    <a class="VPButton" 
+       :href="props.demoPath ? props.demoPath : `/index-solutions/demo.html?id=${props.jsfiddle}`" 
+       target="_blank" 
+       rel="noreferrer">
         Open in New Tab
     </a>
 
-    <a class="VPButton" :href="`https://jsfiddle.net/romantonoff/${props.jsfiddle}`" target="_blank" rel="noreferrer">
+    <!-- Code Sources Button -->
+    <a class="VPButton" 
+       :href="props.folderPath ? `${props.repositoryUrl}/tree/master/${props.folderPath}` : `https://jsfiddle.net/romantonoff/${props.jsfiddle}`" 
+       target="_blank" 
+       rel="noreferrer">
         Code sources
     </a>
 </template>

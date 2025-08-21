@@ -21,10 +21,11 @@
 - [Starbucks](/demo/starbucks.html)
 
 <div style="display:flex;flex-wrap:wrap;">
+  <img style="width: 200px;" width="200" height="433.59" src="/demos/ai-chatbot.gif" alt="Cupertino Pane - Roman Antonov" >
   <img style="width: 200px;" width="200" height="433.59" src="/demos/custom-transitions.gif" alt="Cupertino Pane - Roman Antonov" >
   <img style="width: 200px;" width="200" src="/demos/picture-in-picture.gif" alt="Cupertino Pane - Roman Antonov" >
   <img style="width: 200px;" width="200" src="/demos/notifications.gif" alt="Cupertino Pane - Roman Antonov" >
   <img style="width: 200px;" width="200" src="/demos/z-stack.gif" alt="Cupertino Pane - Roman Antonov" >
   <img style="width: 200px;" width="200" src="/demos/overflow.gif" alt="Cupertino Pane - Roman Antonov" >
-  <img style="width: 200px;" width="200" src="/demos/bulletin.gif" alt="Cupertino Pane - Roman Antonov" >
+
 </div>
